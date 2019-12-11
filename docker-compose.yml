@@ -7,3 +7,11 @@ services:
     ports:
       - 80:80
       - 443:443
+  mariadb:
+    image: mariadb:10.4
+    restart: always
+    ports:
+      - 3306:3306
+    env_file: .env
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
