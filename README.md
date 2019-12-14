@@ -9,7 +9,7 @@ Make sure to have [Docker](https://docs.docker.com/v17.09/engine/installation/) 
 
 ```shell
 cd LAMPP
-docker compose up -d
+docker-compose up -d
 ```
 
 
