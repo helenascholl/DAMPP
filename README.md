@@ -1,4 +1,4 @@
-# LAMPP
+# DAMPP
 
 An Apache-MariaDB-PHP-phpMyAdmin Setup with Docker.
 
@@ -8,7 +8,7 @@ An Apache-MariaDB-PHP-phpMyAdmin Setup with Docker.
 Make sure to have [Docker](https://docs.docker.com/v17.09/engine/installation/) and [docker-compose](https://docs.docker.com/compose/install/) installed.
 
 ```shell
-cd LAMPP
+cd DAMPP
 docker-compose up -d
 ```
 
