@@ -5,7 +5,7 @@ An Apache-MariaDB-PHP-phpMyAdmin Setup with Docker.
 
 ## Start
 
-Make sure to have [Docker](https://docs.docker.com/v17.09/engine/installation/) and [docker-compose](https://docs.docker.com/compose/install/) installed.
+Make sure to have [Docker](https://docs.docker.com/v17.09/engine/installation/) and [Docker Compose](https://docs.docker.com/compose/install/) installed.
 
 ```shell
 cd DAMPP
