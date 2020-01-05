@@ -13,8 +13,7 @@ services:
     ports:
       - 3306:3306
     env_file: .env
-    environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:4.9
     restart: always
@@ -22,5 +21,4 @@ services:
       - 8080:80
     env_file: .env
     environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       PMA_HOST: mariadb
