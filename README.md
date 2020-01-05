@@ -15,10 +15,9 @@ sudo chown -R "$(whoami)":www-data ./public/
 
 Then set the password for the `root` user of the database by changing the value of `MYSQL_ROOT_PASSWORD` in the `.env` file.
 
-To start DAMPP you just have to change into the `DAMPP` directory and start the containers.
+Start DAMPP with `docker-compose` (You might need to run the command as root).
 
 ```shell
-cd DAMPP
 docker-compose up -d
 ```
 
