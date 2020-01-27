@@ -10,6 +10,7 @@ Make sure to have [Docker](https://docs.docker.com/v17.09/engine/installation/) 
 First you have to change the ownership of the `public` directory to the `www-data` group.
 
 ```shell
+groupadd -g 33 www-data
 sudo chown -R "$(whoami)":www-data ./public/
 ```
 
